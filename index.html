@@ -240,9 +240,39 @@
     </ol>
 
     <h3>ul(unorder list : 비순차적 목록)</h3>
-    <p>[스타일 명]list-style</p>
+    <p>[스타일 명] list-style의 값은 circle 기본 설정 (disc, square, none사용 가능)</p>
     <ul>
-      <li></li>
+      <li>바람과 함께 사라지다</li>
+      <li>엄마는 외계인</li>
+      <li>민트초코</li>
+    </ul>
+
+    <ul style="list-style: none;">
+      <li>바람과 함께 사라지다</li>
+      <li>엄마는 외계인</li>
+      <li>민트초코</li>
+    </ul>
+
+    <h4>주의 사항 : 웹에서는 대부분의 영역에 ul ~ li 형태로 주로 사용함. 단수인 경우는 사용하지 않음 / ul과 ol의 자식은 li만 사용할 수 있음(유효성 문제 발생)</h4>
+
+    <h3>dl(definition list : 정의된 목록)</h3>
+    <p>dl(definition list), dt(definition term), dd(definition description)</p>
+    <h4>UN 산하기구</h4>
+
+    <dl>
+      <dt>유니세프</dt>
+      <dd>유니세프는 ...</dd>
+      <dt>유네스코</dt>
+      <dd>유네스코는 ...</dd>
+    </dl>
+
+    <h3>메뉴 구성하기</h3>
+    <ul style="margin: 0; padding: 0; list-style: none; text-align: center;">
+      <li style="display: inline-block;"><a href="" style="text-decoration: none; color: #777;">메일</a></li>
+      <li style="display: inline-block;"><a href="" style="text-decoration: none; color: #777;">카페</a></li>
+      <li style="display: inline-block;"><a href="" style="text-decoration: none; color: #777;">블로그</a></li>
+      <li style="display: inline-block;"><a href="" style="text-decoration: none; color: #777;">쇼핑</a></li>
+      
     </ul>
 
   </body>
